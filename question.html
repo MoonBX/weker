@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>常见问题-Weker维氪</title>
+		<meta name="keywords" content="Weker,维氪"/>
+    	<meta name="description" content="Weker秉持“智慧成就未来，智能改变生活”的信念，致力于为广大用户提供高品质、高性价比的智能化家居产品和服务。通过对智能门锁的管理和操作实现手机APP开锁，安全、便捷的同时，为生活增添科技和趣味。未来将连接更多家居产品，真正实现“智慧生活只需指尖轻轻一点”。"/>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/question.css" />
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="js/html5shiv.js" ></script>
+		<![endif]-->
+	</head>
+	<body>
+		
+		<my-nav nav="4"></my-nav>
+		
+		<div class="main">
+			<section class="section-one">
+				<div class="one-cover">
+					<p class="bold">常见问题</p>
+					<p>help center</p>
+				</div>
+			</section>
+			<section class="section-two" id="content">
+				
+				<div class="panel panel-default" v-for="kind in kinds">
+					<div class="panel-heading" >
+						<h3 class="panel-title">
+							{{kind.title}}
+      					</h3>
+					</div>
+					<div class="panel-body">
+						<ul v-for="question in kind.content">
+							<li class="q">{{question.q}}</li>
+							<li class="a">{{question.a}}</li>
+						</ul>
+						
+					</div>
+				</div>
+				
+			</section>
+		</div>
+
+		<footer>
+			<my-footer></my-footer>
+			<my-info></my-info>
+		</footer>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+	<script type="text/javascript" src="js/vue.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/question.js"></script>
+	<script type="text/javascript" src="js/global.js"></script>
+
+</html>

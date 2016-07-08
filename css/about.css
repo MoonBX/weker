@@ -1,0 +1,108 @@
+.main {}
+
+.section-one {
+	background: url(../img/ab.png) no-repeat center;
+	background-size: cover;
+	min-height: 440px;
+	padding-top: 152px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.article-cover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.article {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 150px;
+	color: #fff;
+	padding: 0px 35px;
+	font-size: 18px;
+}
+
+.article h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.article p {
+	margin-bottom: 40px !important;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+.section-two {
+}
+
+.content {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0px 35px;
+	font-size: 20px;
+	color: #888;
+}
+
+.content h3 {
+	font-weight: bold;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	color: #000;
+	font-size: 30px;
+}
+.item
+{
+	padding: 0px 40px;
+	margin-bottom: 90px;
+}
+.item p
+{
+	line-height: 35px;
+	font-size: 26px;
+}
+.item h4 {
+	color: #34a5e7;
+	font-weight: bold;
+	font-size: 26px;
+	margin: 35px 0px;
+}
+.item label
+{
+	color: #34a5e7;
+	font-size: 26px;
+	
+}
+.item .bold
+{
+	color: #000;
+	margin-left: 10px;
+	font-size: 22px;
+}
+.img-box img
+{
+	max-width: 850px;
+	margin-bottom: 20px;
+}
+.img-box .lu
+{
+	text-indent: 39px;
+}
+.item .apply
+{
+	margin-top: 35px;
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.article {
+		width: 100%;
+	}
+	.content {
+		width: 1200px;
+	}
+}

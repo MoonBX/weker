@@ -1,0 +1,293 @@
+/*reset*/
+
+body {
+	font-family: "微软雅黑" !important;
+}
+a{
+	color: #fff;
+}
+
+body,
+ul,
+li,
+ol,
+img {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+footer {
+	border-top: 5px solid #696969;
+	background: #f7f7fa;
+	padding-top: 80px;
+}
+
+.footer-top {
+	background: #f7f7fa;
+	color: #888;
+	width: 1200px;
+	min-height: 300px;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.footer-top {
+		width: 100%;
+	}
+}
+
+.footer-top .col {}
+
+.top-left {}
+
+.top-left dt {
+	float: left;
+}
+
+.top-left dt img {
+	width: 210px;
+	margin-right: 10px;
+}
+
+.top-left dd {
+	float: left;
+	font-size: 20px;
+}
+
+.top-left dd p {
+	margin: 5px;
+}
+
+.footer-bottom {
+	clear: both;
+	text-align: center;
+	font-size: 20px;
+	color: #000;
+	height: 60px;
+	line-height: 58px;
+	background: #dbdbe0;
+}
+
+.link-box {
+	clear: both;
+	padding-top: 40px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.link-box h3 {
+	font-size: 20px !important;
+	color: #000;
+}
+
+.link-box ul {
+	float: left;
+	margin-right: 70px;
+	line-height: 40px;
+}
+
+.link-box ul li {
+	cursor: pointer;
+}
+.link-box ul li a:hover {
+	color: #3ba8e7;
+	/*text-shadow: 5px 5px 5px #3ba8e7;*/
+	text-decoration: none;
+}
+.top-right {
+	font-size: 20px;
+	text-align: right;
+}
+
+.top-right .phone {
+	margin-top: 40px;
+	
+}
+
+.top-right .share-box {
+	margin-top: 80px;
+}
+
+.top-right .share-box li {
+	float: right;
+	margin-left: 60px;
+}
+
+.top-right .icon {
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.top-right .weixin {
+	background: #aaaaaa url(../img/wei.png) no-repeat center;
+	background-size: 28px;
+}
+
+.top-right .weibo {
+	background: #aaaaaa url(../img/bo.png) no-repeat center;
+	background-size: 30px;
+}
+
+.top-right .weixin:hover {
+	background: #4fbf59 url(../img/wei.png) no-repeat center;
+	background-size: 28px;
+}
+
+.top-right .weibo:hover {
+	background: #d54141 url(../img/bo.png) no-repeat center;
+	background-size: 30px;
+}
+
+
+/*头部导航公用*/
+
+.nav-com {
+	position: fixed;
+	display: block;
+	width: 100%;
+	z-index: 20;
+}
+
+.nav-inner {
+	width: 1200px;
+	margin: 10px auto;
+	background: #fff;
+	min-height: 50px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px #ccc;
+	
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.nav-inner {
+		width: 100%;
+	}
+}
+
+.nav-com .logo {
+	height: 40px;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+
+.nav-com .nav {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 4px;
+}
+
+.nav-com .nav li {
+	display: inline-block;
+	margin-left: 72px;
+	font-size: 18px;
+	line-height: 30px;
+	cursor: pointer;
+	padding: 2px 5px;
+}
+.nav-com .nav li a{
+	
+	padding: 0px;
+	color: #000;
+}
+.nav-com .nav li a:hover{
+	background: none;
+	
+}
+
+.nav-com .phone {
+	float: right;
+	height: 25px;
+	width: 25px;
+	background: url(../img/app.png) no-repeat center;
+	background-size: contain;
+	margin-right: 60px;
+	margin-top: 12px;
+	visibility: hidden;
+	/*cursor: pointer;*/
+}
+
+.nav-com .about {
+	margin-left: 565px !important;
+}
+.nav-com .nav li.curNav
+{
+	background: #2ea5e9 !important;
+	color: #fff !important;
+	border-radius: 5px;
+	
+}
+.nav-com .nav li:hover
+{
+	background: rgba(0,0,0,0.1);
+	color: #000;
+	border-radius: 5px;
+	
+}
+.nav-com .nav li.curNav a
+{
+	color: #fff;
+	
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+	.nav-com .about {
+		margin-left: 480px !important;
+	}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+	.nav-com .about {
+		margin-left: 400px !important;
+	}
+}
+.code-box
+{
+	position: relative;
+	
+}
+
+.code-box .code
+{
+	left: -53px;
+	top:-155px;
+	position: absolute;
+	width: 142px;
+	height: 142px;
+	box-shadow: 0px 0px 15px #ccc;
+	display: none;
+}
+.code-box .code i
+{
+	position: absolute;
+	bottom: -8px;
+	left: 48%;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #fff;
+	margin-top: 10px;
+	
+}
+.code-box .code img{
+	width: 142px;
+	height: 142px;
+	display: block;
+	margin: 0 auto;
+	
+}
+.code-box:hover .code
+{
+	display: block;
+}
+.footer-top a{
+	color: #888;
+}

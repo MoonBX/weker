@@ -1,0 +1,86 @@
+.section-one {
+	background: url(../img/question.png) no-repeat 30% center;
+	height: 310px;
+	
+}
+
+.one-cover {
+	height: 100%;
+	padding-top: 190px;
+	background: url(../img/cover.png) center repeat;
+}
+
+.one-cover p {
+	color: #fff;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 18px;
+	letter-spacing: 4px;
+	padding: 0px 35px;
+}
+
+.one-cover .bold {
+	font-size: 36px;
+	letter-spacing: 0px;
+}
+
+.section-two {
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 18px;
+	margin-bottom: 35px;
+	margin-top: 25px;
+	box-shadow: 2px 2px 10px #eee;
+}
+.section-two h3{
+	color: #000;
+	font-size: 18px;
+}
+.section-two .panel-heading
+{
+	padding: 20px 30px;
+}
+.section-two .panel-body
+{
+	padding: 20px 30px;
+}
+.section-two .panel
+{
+	margin-bottom: 0px;
+}
+.panel-one
+{
+	border-bottom: none;
+}
+.panel
+{
+	border-radius: 0px;
+}
+.panel-body ul{
+	margin-bottom: 40px;
+}
+.panel-body li{
+	text-indent: 38px;
+	line-height: 32px;
+	margin-bottom: 20px;
+	}
+	
+.panel-body .q{
+	background: url(../img/q.png) no-repeat left 4px;
+	background-size:25px ;
+}
+.panel-body .a{
+	background: url(../img/a.png) no-repeat left 4px ;
+	background-size:25px ;
+	color: #888;
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.one-cover p {
+		width: 100%;
+	}
+	.section-two {
+		width: 100%;
+	}
+}
