@@ -11,11 +11,13 @@ $(function() {
 		wrap: true //是否循环
 	});
 	
-	$(".section-one .inner").hover(function(){
+	$(".section-one .inner").on("mouseover",function(){
 		$('.slideCompile').carousel("pause");
-	},function(){
+	});
+	$(".section-one .inner").on("mouseout",function(){
 		$('.slideCompile').carousel("cycle");
-	})
+	});
+	
 
 });
 
