@@ -6,10 +6,16 @@ $(function() {
 	});
 
 	$('.slideCompile').carousel({
-		interval: 6500, //自动轮播
+		interval: 2000, //自动轮播
 		pause: "false", //鼠标移入停止轮播
 		wrap: true //是否循环
 	});
+	
+	$(".section-one .inner").hover(function(){
+		$('.slideCompile').carousel("pause");
+	},function(){
+		$('.slideCompile').carousel("cycle");
+	})
 
 });
 
