@@ -5,29 +5,29 @@
 }
 
 .section-one {
-	background: url(../img/one.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/one.png) no-repeat center;
 	background-size: cover;
 }
 
 .section-two {
-	background: url(../img/two.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/two.png) no-repeat center;
 	background-size: cover;
 }
 
 .section-third {
-	background: url(../img/third.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/third.png) no-repeat center;
 	background-size: cover;
 }
 
 .section-four {
-	background: url(../img/four.png) no-repeat 80% center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/four.png) no-repeat 80% center;
 	background-size: 28% 700px;
 }
 
 section .inner {
 	height: 100%;
 	width: 100%;
-	background: url(../img/cover1.png) center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/cover1.png) center;
 }
 
 section .content {
@@ -104,7 +104,7 @@ section .content h3{
 	z-index: 2;
 	width: 20px;
 	height: 20px;
-	background: url(../img/o.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/o.png) no-repeat center;
 	
 }
 .des-box

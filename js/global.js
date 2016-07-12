@@ -16,7 +16,7 @@ Vue.component('my-nav', {
   // 可以用 `this.msg` 设置
   template:  '<div class="nav-com">\
 			<div class="nav-inner">\
-				<img src="img/logo.png" class="logo" />\
+				<img src="http://weker.img-cn-shanghai.aliyuncs.com/images/logo.png" class="logo" />\
 				<ul class="nav">\
 					<li  :class="{curNav:nav==1}"><a href="index.html">产品展示</a></li>\
 					<li  :class="{curNav:nav==2}"><a href="deal.html">解决方案</a></li>\
@@ -39,7 +39,7 @@ Vue.component('my-footer', {
 	template:'<div class="footer-top">\
 	<div class="col col-sm-9 top-left">\
 		<dl>\
-			<dt><img src="img/logo.png"/></dt>\
+			<dt><img src="http://weker.img-cn-shanghai.aliyuncs.com/images/logo.png"/></dt>\
 			<dd>\
 				<p>延续家的温度，缩小家的距离</p>\
 				<p>feel the temperature of the house</p>\
@@ -74,7 +74,7 @@ Vue.component('my-footer', {
 			<li class="code-box">\
 				<div class="icon weixin">\
 				<div class="code">\
-				<img src="img/code.png"/>\
+				<img src="http://weker.img-cn-shanghai.aliyuncs.com/images/code.png"/>\
 				<i></i>\
 							</div>\
 				</div>\

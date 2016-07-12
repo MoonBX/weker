@@ -6,7 +6,7 @@
 
 #myCarousel .item {
 	text-align: center;
-	background: url(../img/2.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/2.png) no-repeat center;
 	background-size:cover;
 	cursor: pointer;
 	width: 100%;
@@ -37,14 +37,14 @@
 }
 
 .section-four {
-	background: url(../img/four.png) no-repeat 80% center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/four.png) no-repeat 80% center;
 	background-size: 28% 700px;
 }
 
 .section-four .inner {
 	height: 100%;
 	width: 100%;
-	background: url(../img/index.png) center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/index.png) center;
 }
 
 .section-four .content {
@@ -70,7 +70,7 @@
 	z-index: 2;
 	width: 20px;
 	height: 20px;
-	background: url(../img/o.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/o.png) no-repeat center;
 }
 
 .section-four .item li {
@@ -168,7 +168,7 @@
 
 .section-two {
 	height: 860px;
-	background: url(../img/bg.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/bg.png) no-repeat center;
 	background-size: 100% 860px;
 	overflow: hidden;
 }
@@ -203,15 +203,15 @@
 }
 
 .icon1 {
-	background: url(../img/icon1.png) no-repeat center left;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/icon1.png) no-repeat center left;
 }
 
 .icon2 {
-	background: url(../img/icon2.png) no-repeat center left;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/icon2.png) no-repeat center left;
 }
 
 .icon3 {
-	background: url(../img/icon3.png) no-repeat center left;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/icon3.png) no-repeat center left;
 }
 
 
@@ -261,7 +261,7 @@
 .slideBox {
 	width: 353px;
 	height: 674px;
-	background: url(../img/iphone.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/iphone.png) no-repeat center;
 	padding-top: 89px;
 }
 
@@ -313,21 +313,21 @@
 
 
 .slide-inner .carousel-control.left {
-	background: url(../img/zuo.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/zuo.png) no-repeat center;
 	left: -90px;
 }
 
 .slide-inner .carousel-control.right {
-	background: url(../img/you.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/you.png) no-repeat center;
 	right:-90px;
 }
 
 .slide-inner .carousel-control.left:hover {
-	background: #e5e5e5 url(../img/zuo.png) no-repeat center;
+	background: #e5e5e5 url(http://weker.img-cn-shanghai.aliyuncs.com/images/zuo.png) no-repeat center;
 }
 
 .slide-inner .carousel-control.right:hover {
-	background: #e5e5e5 url(../img/you.png) no-repeat center;
+	background: #e5e5e5 url(http://weker.img-cn-shanghai.aliyuncs.com/images/you.png) no-repeat center;
 }
 
 .attach-box .slideCompile .item
@@ -347,7 +347,7 @@
 .slide1 .col{
 	text-align: center;
 	height: 175px;
-	background: url(../img/shadow.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/shadow.png) no-repeat center;
 	font-size: 24px;
 	line-height: 160px;
 	color: #6e6f78;

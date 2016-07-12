@@ -1,5 +1,5 @@
 .section-one {
-	background: url(../img/question.png) no-repeat 30% center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/question.png) no-repeat 30% center;
 	height: 310px;
 	
 }
@@ -7,7 +7,7 @@
 .one-cover {
 	height: 100%;
 	padding-top: 190px;
-	background: url(../img/cover.png) center repeat;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/cover.png) center repeat;
 }
 
 .one-cover p {
@@ -66,11 +66,11 @@
 	}
 	
 .panel-body .q{
-	background: url(../img/q.png) no-repeat left 4px;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/q.png) no-repeat left 4px;
 	background-size:25px ;
 }
 .panel-body .a{
-	background: url(../img/a.png) no-repeat left 4px ;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/a.png) no-repeat left 4px ;
 	background-size:25px ;
 	color: #888;
 }
