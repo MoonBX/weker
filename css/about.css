@@ -1,4 +1,6 @@
-.main {}
+.main {
+	width: 100%;
+}
 
 .section-one {
 	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/ab.jpg) no-repeat center;
@@ -7,6 +9,7 @@
 	padding-top: 152px;
 	padding-bottom: 20px;
 	position: relative;
+	width: 100%;
 }
 
 .article-cover {

@@ -31,126 +31,132 @@ section .inner {
 }
 
 section .content {
-	/*border: 1px solid #f00;*/
 	width: 1200px;
 	margin: 0 auto;
 	height: 100%;
 	color: #fff;
 }
-section .content h3{
+
+section .content h3 {
 	font-size: 50px;
 	font-weight: 84;
 	text-indent: 5px;
 }
-.des{
+
+.des {
 	font-size: 20px;
 }
-.item
-{
+
+.item {
 	text-align: center;
 	width: 100%;
 	margin-top: 100px;
 }
 
-.item  img{
+.item img {
 	height: 70px;
 	display: block;
 	margin: 0 auto;
-}.item  p{
+}
+
+.item p {
 	text-align: center;
 	font-size: 20px;
 	margin-top: 22px;
 }
-.section-third .item img
-{
+
+.section-third .item img {
 	height: 100px;
 }
-.section-two .item img
-{
+
+.section-two .item img {
 	height: 80px;
 }
-.section-one .content ,.section-two .content,.section-third .content
-{
+
+.section-one .content,
+.section-two .content,
+.section-third .content {
 	padding-top: 230px;
-	padding-left:140px ;
 	padding-left: 140px;
 }
 
-.section-one .content {
-	
-}
+/*.section-one .content {}
 
-.section-two .content {
-}
+.section-two .content {}
 
-.section-third .content {
-}
+.section-third .content {}*/
 
 .section-four .content {
 	padding-top: 100px;
 }
-.section-four  h2{
+
+.section-four h2 {
 	font-size: 42px !important;
 	text-align: center;
 }
-.section-four h2 span{
+
+.section-four h2 span {
 	position: relative;
 	margin: 0px 20px;
 }
-.section-four h2 span i{
+
+.section-four h2 span i {
 	position: absolute;
 	right: -20px;
-	top:-5px;
+	top: -5px;
 	z-index: 2;
 	width: 20px;
 	height: 20px;
 	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/o.png) no-repeat center;
-	
 }
-.des-box
-{
-	
+
+.des-box {
 	height: 158px;
 	width: 158px;
 	margin: 0 auto;
 	border-radius: 50%;
 	border: 1px solid #fff;
-	box-shadow:  0px 0px 15px #ccc;
+	box-shadow: 0px 0px 15px #ccc;
 	/*padding-top: 25px;*/
-	
 }
-.des-box-inner
-{
+
+.des-box-inner {
 	height: 158px;
 	width: 158px;
 	margin: 0 auto;
 	border-radius: 50%;
 	border: 1px solid #fff;
-	box-shadow:inset  0px 0px 15px #ccc;
+	box-shadow: inset 0px 0px 15px #ccc;
 	padding-top: 25px;
 }
-.des-box p{
+
+.des-box p {
 	font-size: 34px;
-	margin: 0px ;
+	margin: 0px;
 }
-.item li{
+
+.item li {
 	float: left;
 	width: 18%;
 	margin: 0px 1%;
 }
-.contact
-{
+
+.contact {
 	clear: both;
 	font-size: 20px;
 	text-align: center;
 	padding-top: 100px;
 }
-.contact em{
+
+.contact em {
 	font-style: normal;
 	font-size: 30px;
 }
+
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
 	section .content {
 		width: 100%;
 	}
+	
 }
+

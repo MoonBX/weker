@@ -2,6 +2,7 @@
 
 body {
 	font-family: "微软雅黑" !important;
+	margin: 0 auto;
 }
 a{
 	color: #fff;
@@ -172,6 +173,7 @@ footer {
 		width: 100%;
 	}
 }
+
 
 .nav-com .logo {
 	height: 40px;
