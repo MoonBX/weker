@@ -22,7 +22,9 @@ Vue.component('my-nav', {
 					<li  :class="{curNav:nav==2}"><a href="deal.html">解决方案</a></li>\
 					<li  :class="{curNav:nav==3}" class="about"><a href="about.html">关于我们</a></li>\
 				</ul>\
-				<span class="phone" v-on:click=""></span>\
+				<span class="phone">\
+				<div class="down-box"><i></i><img src="http://weker.img-cn-shanghai.aliyuncs.com/images/code.png"/></div>\
+				</span>\
 			</div>\
 		</div>'
 		,

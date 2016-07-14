@@ -113,6 +113,7 @@ footer {
 	
 }
 
+
 .top-right .share-box {
 	margin-top: 80px;
 }
@@ -214,8 +215,30 @@ footer {
 	background-size: contain;
 	margin-right: 60px;
 	margin-top: 12px;
-	visibility: hidden;
+	position: relative;
 	/*cursor: pointer;*/
+	visibility: hidden;
+}
+.nav-com .phone:hover .down-box
+{
+	display: block;
+}
+.nav-com .down-box{
+	position: absolute;
+	display: none;
+	left: -58px;
+	top:55px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.nav-com .down-box i{
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 61px;
+	top:-8px;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #fff;
 }
 
 .nav-com .about {
