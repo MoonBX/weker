@@ -24,7 +24,8 @@ li {
 footer {
 	border-top: 5px solid #696969;
 	background: #f7f7fa;
-	padding-top: 80px;
+	padding-top: 50px;
+	overflow: hidden;
 }
 
 .footer-top {
@@ -76,7 +77,7 @@ footer {
 
 .link-box {
 	clear: both;
-	padding-top: 40px;
+	padding-top: 30px;
 	font-family: "微软雅黑";
 	font-size: 20px;
 	overflow: hidden;

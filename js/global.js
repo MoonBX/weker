@@ -49,7 +49,7 @@ Vue.component('my-footer', {
 			<ul>\
 				<h3>关于我们</h3>\
 				<li v-if="footer == 1"><a href="#contact">联系我们</a></li>\
-				<li v-else><a href="about.html">联系我们</a></li>\
+				<li v-else><a href="about.html#contact">联系我们</a></li>\
 				<li v-if="footer == 1"><a href="#join">加入团队</a></li>\
 				<li v-else><a href="about.html#join">加入团队</a></li>\
 			</ul>\
