@@ -116,14 +116,10 @@
 	box-shadow:inset  0px 0px 15px #ccc;
 	padding-top: 25px;
 }
-
-
-
 .section-four .des-box p {
 	font-size: 34px;
 	margin: 0px;
 }
-
 .section-four .contact {
 	clear: both;
 	font-size: 20px;
@@ -135,14 +131,6 @@
 	font-style: normal;
 	font-size: 30px;
 }
-
-@media only screen and (min-width: 1000px) and (max-width: 1200px) {
-	.section-four .content {
-		width: 100%;
-	}
-	
-}
-
 
 /*进入店铺模块*/
 
@@ -274,13 +262,6 @@
 	margin-top: 195px;
 }
 
-@media only screen and (min-width: 1000px) and (max-width:1050px) {
-	.attach-box {
-		margin-right: 0px;
-	}
-}
-
-
 .slideBox {
 	width: 353px;
 	height: 674px;
@@ -382,6 +363,18 @@
 	text-indent: 10px;
 	cursor: pointer;
 }
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.section-four .content {
+		width: 100%;
+	}
+	
+}
+@media only screen and (min-width: 1000px) and (max-width:1050px) {
+	.attach-box {
+		margin-right: 0px;
+	}
+}
+
 @media only screen and (max-width:999px) {
 	
 	#myCarousel,.banner,.section-one,.section-two,.section-four,.into-box{

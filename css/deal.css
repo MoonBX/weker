@@ -85,27 +85,17 @@ section .content h3 {
 	padding-top: 230px;
 	padding-left: 140px;
 }
-
-/*.section-one .content {}
-
-.section-two .content {}
-
-.section-third .content {}*/
-
 .section-four .content {
 	padding-top: 100px;
 }
-
 .section-four h2 {
 	font-size: 42px !important;
 	text-align: center;
 }
-
 .section-four h2 span {
 	position: relative;
 	margin: 0px 20px;
 }
-
 .section-four h2 span i {
 	position: absolute;
 	right: -20px;
