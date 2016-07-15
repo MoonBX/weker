@@ -144,8 +144,6 @@ footer {
 	background: #d54141 url(http://weker.img-cn-shanghai.aliyuncs.com/images/bo.png) no-repeat center;
 	background-size: 30px;
 }
-
-
 /*头部导航公用*/
 
 .nav-com {
@@ -163,22 +161,16 @@ footer {
 	border-radius: 10px;
 	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
 }
-
-
-
-
 .nav-com .logo {
 	height: 40px;
 	margin-top: 7px;
 	margin-left: 10px;
 }
-
 .nav-com .nav {
 	display: inline-block;
 	vertical-align: middle;
 	margin-top: 4px;
 }
-
 .nav-com .nav li {
 	display: inline-block;
 	margin-left: 72px;
@@ -253,8 +245,6 @@ footer {
 	color: #fff;
 }
 
-
-
 .code-box {
 	position: relative;
 }
@@ -305,9 +295,6 @@ footer {
 	}
 }
 
-
-
-
 @media only screen and (min-width: 1100px) and (max-width: 1200px) {
 	.nav-com .about {
 		margin-left: 480px !important;
@@ -327,7 +314,16 @@ footer {
 		margin:  0 auto;
 	}
 	.nav-com .about {
-		margin-left: 294px !important;
+		margin-left: 50px !important;
+	}
+	.nav-inner
+	{
+		min-height: 100px;
+		padding-top: 20px;
+	}
+	.nav-com .nav li a {
+		font-size: 40px;
+		line-height: 50px;
 	}
 	
 }
