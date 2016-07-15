@@ -1,6 +1,11 @@
 .main {
 	width: 100%;
 }
+@media  screen and (max-width:999px ) {
+	.main {
+	width: 1200px;
+}
+}
 
 .section-one {
 	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/ab.jpg) no-repeat center;

@@ -1,5 +1,11 @@
-.main {}
-
+.main {
+	width: 100%;
+}
+@media  screen and (max-width:999px ) {
+	.main {
+	width: 1200px;
+}
+}
 .main section {
 	height: 700px;
 }

@@ -4,7 +4,8 @@ body {
 	font-family: "微软雅黑" !important;
 	margin: 0 auto;
 }
-a{
+
+a {
 	color: #fff;
 }
 
@@ -34,14 +35,8 @@ footer {
 	width: 1200px;
 	min-height: 300px;
 	margin: 0 auto;
-	/*overflow: hidden;*/
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1200px) {
-	.footer-top {
-		width: 100%;
-	}
-}
 
 .footer-top .col {}
 
@@ -98,11 +93,13 @@ footer {
 .link-box ul li {
 	cursor: pointer;
 }
+
 .link-box ul li a:hover {
 	color: #3ba8e7;
 	/*text-shadow: 5px 5px 5px #3ba8e7;*/
 	text-decoration: none;
 }
+
 .top-right {
 	font-size: 20px;
 	text-align: right;
@@ -110,9 +107,7 @@ footer {
 
 .top-right .phone {
 	margin-top: 40px;
-	
 }
-
 
 .top-right .share-box {
 	margin-top: 80px;
@@ -166,15 +161,10 @@ footer {
 	background: #fff;
 	min-height: 50px;
 	border-radius: 10px;
-	box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
-	
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1200px) {
-	.nav-inner {
-		width: 100%;
-	}
-}
+
 
 
 .nav-com .logo {
@@ -197,14 +187,14 @@ footer {
 	cursor: pointer;
 	padding: 2px 5px;
 }
-.nav-com .nav li a{
-	
+
+.nav-com .nav li a {
 	padding: 0px;
 	color: #000;
 }
-.nav-com .nav li a:hover{
+
+.nav-com .nav li a:hover {
 	background: none;
-	
 }
 
 .nav-com .phone {
@@ -219,23 +209,25 @@ footer {
 	/*cursor: pointer;*/
 	visibility: hidden;
 }
-.nav-com .phone:hover .down-box
-{
+
+.nav-com .phone:hover .down-box {
 	display: block;
 }
-.nav-com .down-box{
+
+.nav-com .down-box {
 	position: absolute;
 	display: none;
 	left: -58px;
-	top:55px;
-	box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+	top: 55px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
-.nav-com .down-box i{
+
+.nav-com .down-box i {
 	position: absolute;
 	width: 0;
 	height: 0;
 	left: 61px;
-	top:-8px;
+	top: -8px;
 	border-left: 8px solid transparent;
 	border-right: 8px solid transparent;
 	border-bottom: 8px solid #fff;
@@ -244,54 +236,40 @@ footer {
 .nav-com .about {
 	margin-left: 565px !important;
 }
-.nav-com .nav li.curNav
-{
+
+.nav-com .nav li.curNav {
 	background: #2ea5e9 !important;
 	color: #fff !important;
 	border-radius: 5px;
-	
 }
-.nav-com .nav li:hover
-{
-	background: rgba(0,0,0,0.1);
+
+.nav-com .nav li:hover {
+	background: rgba(0, 0, 0, 0.1);
 	color: #000;
 	border-radius: 5px;
-	
 }
-.nav-com .nav li.curNav a
-{
+
+.nav-com .nav li.curNav a {
 	color: #fff;
-	
 }
 
-@media only screen and (min-width: 1100px) and (max-width: 1200px) {
-	.nav-com .about {
-		margin-left: 480px !important;
-	}
-}
-@media only screen and (min-width: 1000px) and (max-width: 1100px) {
-	.nav-com .about {
-		margin-left: 400px !important;
-	}
-}
-.code-box
-{
+
+
+.code-box {
 	position: relative;
-	
 }
 
-.code-box .code
-{
+.code-box .code {
 	left: -53px;
-	top:-155px;
+	top: -155px;
 	position: absolute;
 	width: 142px;
 	height: 142px;
 	box-shadow: 0px 0px 15px #ccc;
 	display: none;
 }
-.code-box .code i
-{
+
+.code-box .code i {
 	position: absolute;
 	bottom: -8px;
 	left: 48%;
@@ -301,19 +279,55 @@ footer {
 	border-right: 8px solid transparent;
 	border-top: 8px solid #fff;
 	margin-top: 10px;
-	
 }
-.code-box .code img{
+
+.code-box .code img {
 	width: 142px;
 	height: 142px;
 	display: block;
 	margin: 0 auto;
-	
 }
-.code-box:hover .code
-{
+
+.code-box:hover .code {
 	display: block;
 }
-.footer-top a{
+
+.footer-top a {
 	color: #888;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.nav-inner {
+		width: 100%;
+	}
+	.footer-top {
+		width: 100%;
+	}
+}
+
+
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+	.nav-com .about {
+		margin-left: 480px !important;
+	}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+	.nav-com .about {
+		margin-left: 400px !important;
+	}
+}
+
+@media only screen and (max-width: 999px) {
+	 
+	.nav-inner,.footer-top,footer {
+		width: 1200px;
+		margin:  0 auto;
+	}
+	.nav-com .about {
+		margin-left: 294px !important;
+	}
+	
 }

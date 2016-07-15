@@ -1,9 +1,7 @@
 .section-one {
 	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/question.png) no-repeat 30% center;
 	height: 310px;
-	
 }
-
 .one-cover {
 	height: 100%;
 	padding-top: 190px;
@@ -82,5 +80,18 @@
 	}
 	.section-two {
 		width: 100%;
+	}
+}
+
+@media  screen and  (max-width: 999px) {
+	.one-cover p {
+		width: 1200px;
+	}
+	.section-two {
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.section-one{
+		width: 1200px;
 	}
 }
