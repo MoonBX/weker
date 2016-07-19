@@ -280,11 +280,9 @@ footer {
 	display: block;
 	margin: 0 auto;
 }
-
 .code-box:hover .code {
 	display: block;
 }
-
 .footer-top a {
 	color: #888;
 }
@@ -296,13 +294,11 @@ footer {
 	}
 }
 @media only screen and (max-width: 998px) {
-	 
 	.footer-top,footer {
 		width: 1200px;
 		margin:  0 auto;
 	}
 }
-
 @media only screen and (max-width:800px ) {
 	.nav-inner{
 		width: 800px;
