@@ -20,11 +20,11 @@ Vue.component('my-nav', {
 				<ul class="nav">\
 					<li  :class="{curNav:nav==1}"><a href="index.html">产品展示</a></li>\
 					<li  :class="{curNav:nav==2}"><a href="deal.html">解决方案</a></li>\
-					<li  :class="{curNav:nav==3}" class="about"><a href="about.html">关于我们</a></li>\
 				</ul>\
 				<span class="phone">\
-				<div class="down-box"><i></i><img src="http://weker.img-cn-shanghai.aliyuncs.com/images/code.png"/></div>\
+				<div class="down-box"><i></i><img src="http://weker.img-cn-shanghai.aliyuncs.com/images/download.jpg" alt="下载二维码"/></div>\
 				</span>\
+				<span :class="{curNav:nav==3}" class="about"><a href="about.html">关于我们</a></span>\
 			</div>\
 		</div>'
 		,
@@ -99,9 +99,16 @@ Vue.component('my-footer', {
 new Vue({
   el: 'body',
   
-  
 })
-	 
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ef5e954a0dc570ae9f3a3d74d9425cb4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
 	
 	
 
