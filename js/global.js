@@ -64,6 +64,7 @@ Vue.component('my-footer', {
 				<li><a href="http://www.mc-www.com/">众核万维</a></li>\
 				<li><a href="http://www.uzuer.com/">U租</a></li>\
 				<li><a href="http://www.ix-work.cn/">IX-work</a></li>\
+				<li><a href="http://www.chedaoshanqian.com/">车到山前</a></li>\
 			</ul>\
 		</div>\
 	</div>\
