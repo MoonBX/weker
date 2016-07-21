@@ -63,7 +63,7 @@ Vue.component('my-footer', {
 				<h3>友情链接</h3>\
 				<li><a href="http://www.mc-www.com/">众核万维</a></li>\
 				<li><a href="http://www.uzuer.com/">U租</a></li>\
-				<li><a href="http://www.ix-work.cn/">IX-work</a></li>\
+				<li><a href="http://www.ix-work.cn/">IX-WORK</a></li>\
 				<li><a href="http://www.chedaoshanqian.com/">车到山前</a></li>\
 			</ul>\
 		</div>\
