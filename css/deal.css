@@ -11,17 +11,17 @@
 }
 
 .section-one {
-	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/one.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/one.png@60q) no-repeat center;
 	background-size: cover;
 }
 
 .section-two {
-	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/two.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/two.png@60q) no-repeat center;
 	background-size: cover;
 }
 
 .section-third {
-	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/third.png) no-repeat center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/third.png@60q) no-repeat center;
 	background-size: cover;
 }
 
