@@ -11,6 +11,7 @@
 
 #myCarousel .item {
 	text-align: center;
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/2.png@20q) no-repeat center;
 	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/2.png) no-repeat center;
 	background-size:cover;
 	/*cursor: pointer;*/
