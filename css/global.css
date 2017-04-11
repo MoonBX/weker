@@ -137,15 +137,16 @@ footer {
 	position: fixed;
 	display: block;
 	width: 100%;
+	left: 0;
 	z-index: 20;
 }
 .nav-inner {
-	width: 86%;
-	margin: 10px auto;
+	width: 100%;
+	margin: 0 auto;
 	background: #fff;
-	min-height: 50px;
-	border-radius: 10px;
-	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+	min-height: 74px;
+	line-height: 74px;
+	/*box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);*/
 }
 .nav-com .logo {
 	height: 40px;
@@ -172,8 +173,8 @@ footer {
 	font-size: 18px;
 	line-height: 30px;
 	cursor: pointer;
-	padding: 2px 5px;
-	margin-top: 7px;
+	/*padding: 2px 5px;*/
+	margin-top: 24px;
 	color: #000 ;
 }
 .nav-com .about a{
@@ -196,7 +197,7 @@ footer {
 	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/app.png) no-repeat center;
 	background-size: contain;
 	margin-right: 60px;
-	margin-top: 12px;
+	margin-top: 26px;
 	position: relative;
 	/*cursor: pointer;*/
 	/*visibility: hidden;*/

@@ -17,23 +17,30 @@
 	</head>
 
 	<body>
+
+	<div style="margin: 0 auto;">
 		<my-nav nav="1"></my-nav>
 		<div class="banner">
 			<div id="myCarousel" class="carousel slide">
 				<!-- 轮播（Carousel）指标 commit-->
 				<ol class="carousel-indicators">
-					<!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
-					<!--<li data-target="#myCarousel" data-slide-to="1"></li>-->
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
 				</ol>
 				<!-- 轮播（Carousel）项目 -->
 				<div class="carousel-inner">
-					<a href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w5001-11709700469.4.l9Biri&id=536726106745&scene=taobao_shop">
-					<div class="item active">
-						
+					<div class="item active img1">
+						<a href="detail-t1.html"></a>
 					</div>
-					</a>
-					<!--<div class="item">
-					</div>-->
+					<div class="item img2">
+						<a href="detail-t2.html"></a>
+					</div>
+					<div class="item img3">
+						<a href="detail-w2.html"></a>
+					</div>
+					<a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+					<a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
 				</div>
 			</div>
 		</div>
@@ -180,14 +187,16 @@
 			</div>
 			<button type="button" class="into-shop">
 				<a href="https://shop127309714.taobao.com/shop/view_shop.htm?spm=a1z10.5-c.w5001-11709700469.2.NXOHT9&mytmenu=mdianpu&user_number_id=2597481573&scene=taobao_shop">
-				进入店铺</a>
+					进入店铺</a>
 			</button>
-				
+
 		</div>
 		<footer>
 			<my-footer></my-footer>
 			<!--<my-info></my-info>-->
 		</footer>
+	</div>
+
 	</body>
 	<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
 	<script type="text/javascript" src="js/vue.min.js"></script>

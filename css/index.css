@@ -3,6 +3,10 @@
 	width: 100%;
 }
 
+.banner{
+	position: relative;top: 75px;
+}
+
 #myCarousel img {
 	width: 100%;
 	height: 886px;
@@ -10,13 +14,29 @@
 }
 
 #myCarousel .item {
-	text-align: center;
-	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/2.png@20q) no-repeat center;
-	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/2.png) no-repeat center;
-	background-size:cover;
-	/*cursor: pointer;*/
+	/*text-align: center;*/
+	/*background-size: cover;*/
+	cursor: pointer;
+	/*width: 1920px;*/
+	height: 798px;
+}
+
+#myCarousel .img1{
+	background: url('../img/banner_t1.png') no-repeat center center;
+}
+
+#myCarousel .img2{
+	background: url('../img/banner_t2.png') no-repeat center center;
+}
+
+#myCarousel .img3{
+	background: url('../img/banner_w2.png') no-repeat center center;
+}
+
+#myCarousel .item a{
+	display: inline-block;
 	width: 100%;
-	height: 886px;
+	height: 100%;
 }
 
 #myCarousel .carousel-indicators li {
@@ -31,6 +51,16 @@
 	height: 5px;
 	background: #3ba8e7;
 	margin: 1px;
+}
+
+#myCarousel .carousel-control.left {
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/zuo.png) no-repeat center;
+	left: 0px;
+}
+
+#myCarousel .carousel-control.right {
+	background: url(http://weker.img-cn-shanghai.aliyuncs.com/images/you.png) no-repeat center;
+	right:0px;
 }
 
 
@@ -227,8 +257,8 @@
 /*ssection1*/
 
 .section-one {
-	height: 860px;
-	padding: 90px 0px;
+	/*height: 860px;*/
+	padding: 78px 0px;
 	width: 100%;
 	overflow: hidden;
 }

@@ -94,8 +94,6 @@ Vue.component('my-footer', {
 	
 });
 
-
-
 // 创建根实例
 new Vue({
   el: 'body',

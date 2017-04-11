@@ -1,6 +1,6 @@
 $(function() {
 	$('#myCarousel').carousel({
-		interval: 2000, //自动轮播
+		interval: 6000, //自动轮播
 		pause: "hover", //鼠标移入停止轮播
 		wrap: true //是否循环
 	});
