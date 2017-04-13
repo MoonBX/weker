@@ -22,15 +22,15 @@
 }
 
 #myCarousel .img1{
-	background: url('../img/banner_t1.png') no-repeat center center;
+	background: url(http://weker.oss-cn-shanghai.aliyuncs.com/images/banner_t1.png) no-repeat center center;
 }
 
 #myCarousel .img2{
-	background: url('../img/banner_t2.png') no-repeat center center;
+	background: url(http://weker.oss-cn-shanghai.aliyuncs.com/images/banner_t2.png) no-repeat center center;
 }
 
 #myCarousel .img3{
-	background: url('../img/banner_w2.png') no-repeat center center;
+	background: url(http://weker.oss-cn-shanghai.aliyuncs.com/images/banner_w2.png) no-repeat center center;
 }
 
 #myCarousel .item a{
